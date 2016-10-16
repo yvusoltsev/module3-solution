@@ -1,0 +1,93 @@
+body {
+	font-size: 12px;
+ }
+/** HEADER **/
+
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 2px solid #000;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  color: #000;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000;
+}
+#nav-list a {
+  font-size: 1.7em;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.col-xs-12 {
+  background-color: #808080;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+h2 {
+  font-size: 1.7em;
+  color: #000;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .container {
+    width: device-width;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.container {
+    width: 96.5%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+ .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
